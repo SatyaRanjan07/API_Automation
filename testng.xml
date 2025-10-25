@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="api.utilities.ExtentReportManager"/>
+    </listeners>
+    <test thread-count="2" name="C:/Users/ASUS/IdeaProjects/TestingRough/src/test/java/api/tests">
+        <classes>
+<!--            <class name="api.tests.DDTests"/>-->
+            <class name="api.tests.UserTests"/>
+        </classes>
+    </test>
+</suite>
