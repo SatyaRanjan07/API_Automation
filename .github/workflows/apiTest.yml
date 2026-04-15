@@ -3,7 +3,8 @@ name: Run TestNG Automation
 on:
   push:
     branches: [ "main" ]
-
+  workflow_dispatch:
+  
 jobs:
   run-tests:
     runs-on: ubuntu-latest
